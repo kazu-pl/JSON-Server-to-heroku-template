@@ -1,0 +1,10 @@
+Link to instruction:
+https://elements.heroku.com/buttons/eecs130/json-server-heroku
+
+in summary:
+1 - put into db.json your json file you want to public, 
+2 - then add it to git and commit, 
+3 - then go to heroku and create project
+4 - run commands:
+heroku git:remote -a test-server-name   (copy the code from heroku after creating new app)
+git push heroku master
